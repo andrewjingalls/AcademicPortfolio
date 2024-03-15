@@ -32,6 +32,12 @@ header {
     z-index: 1;
     width: 100%;
   }
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+}
   
   header h1 {
     margin: 0;
