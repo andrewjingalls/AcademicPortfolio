@@ -23,10 +23,10 @@ body {
 }
 
 header {
-    background-color: rgb(255, 255, 0);
+    background-color: rgb(255, 255, 255);
 
     padding: 10px;
-    /*position: sticky;*/
+    position: sticky;
     text-align: center;
     top: 0;
     z-index: 1;
@@ -42,7 +42,7 @@ header {
 @media only screen and (max-width: 600px) {
     /* CSS styles for smaller screens */
     header {
-        padding: 10px 125px;
+        padding: 10px 150px;
     }
 }
 
