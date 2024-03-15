@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 0);
 
     padding: 10px 20px;
     position: sticky;
@@ -32,17 +32,11 @@ header {
     z-index: 1;
     width: 100%;
   }
-
-@media only screen and (max-width: 600px) {
-    header {
-        padding: 10px; /* Adjust padding for smaller screens */
-        width: 100%;
-    }
-}
   
   header h1 {
     margin: 0;
     font-size: 2rem;
+    width: 100%;
   }
 
 p {
