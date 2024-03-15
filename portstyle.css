@@ -23,7 +23,7 @@ body {
 }
 
 header {
-    background-color: rgb(255, 0, 255);
+    background-color: rgb(255, 255, 255);
 
     padding: 10px;
     position: sticky;
@@ -33,7 +33,7 @@ header {
     width: 100%;
   }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 200px) {
     header {
         padding: 5px; /* Adjust padding for smaller screens */
     }
