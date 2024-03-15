@@ -38,6 +38,13 @@ header {
     font-size: 2rem;
   }
 
+@media only screen and (max-width: 600px) {
+    /* CSS styles for smaller screens */
+    header {
+        padding: 10px 5%;
+    }
+}
+
 p {
     display: flex;
     justify-content: flex-start;
